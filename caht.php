@@ -1,6 +1,6 @@
 <?php
 include "dev/style/head.php";
-print_r($_SESSION);
+// print_r($_SESSION);
 if(!isset($_SESSION["login"])){
   header("location:register.php");
  
@@ -17,8 +17,12 @@ if(!isset($_SESSION["login"])){
                 <i class="fas fa-sliders-h"></i>
               </div>
               <div class="enter">
-                  <input type="text" placeholder="Search" >
-                  <span><i class="fa-solid fa-plus"></i></span>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia possimus enim perspiciatis, nemo blanditiis vero. Dolorum voluptatem, culpa fuggggga a dolor tempore omnis facilis distinctio quos vel architecto impedit.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia possimus enim perspiciatis, nemo blanditiis vero. Dolorum voluptatem, culpa fuggggga a dolor tempore omnis facilis distinctio quos vel architecto impedit.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia possimus enim perspiciatis, nemo blanditiis vero. Dolorum voluptatem, culpa fuggggga a dolor tempore omnis facilis distinctio quos vel architecto impedit.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia possimus enim perspiciatis, nemo blanditiis vero. Dolorum voluptatem, culpa fuggggga a dolor tempore omnis facilis distinctio quos vel architecto impedit.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia possimus enim perspiciatis, nemo blanditiis vero. Dolorum voluptatem, culpa fuggggga a dolor tempore omnis facilis distinctio quos vel architecto impedit.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia possimus enim perspiciatis, nemo blanditiis vero. Dolorum voluptatem, culpa fuggggga a dolor tempore omnis facilis distinctio quos vel architecto impedit.
               </div>
             </div>
             <div class="right-sec">
@@ -40,9 +44,9 @@ if(!isset($_SESSION["login"])){
                   </div>
               </div>
               <div class="feel">
-                <input type="text" placeholder="How do you feel">
-                <span><i class="fa-solid fa-plus"></i></span>
-            </div>
+                <input type="text" placeholder="How can i help you today?">
+                <button>Send</button>
+              </div>
             </div>
           </div>
         </section>

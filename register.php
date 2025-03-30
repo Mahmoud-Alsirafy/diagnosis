@@ -49,24 +49,15 @@ session_start();
           <?php }
           unset($_SESSION["errors"]["Role"])
           ?>
-          <!-- <div class="d-flex gap-5 align-items-center check ">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="Role" id="inlineRadio1" value="Doctor">
-                <label class="form-check-label" for="inlineRadio1">Doctor</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="Role" id="inlineRadio2" value="Patient">
-                <label class="form-check-label" for="inlineRadio2">Patient </label>
-              </div>
-        </div> -->
+          
         <div class=" d-flex justify-content-around">
           <label class="toggle-container d-flex gap-3">
             <input type="radio" id="doctor" name="Role" value="Doctor">
             <div class="toggle-circle"></div><span>Doctor</span>
           </label>
           <label class="toggle-container d-flex gap-3">
-            <input type="radio" id="doctor" name="Role" value="Doctor">
-            <div class="toggle-circle"></div><span>Doctor</span>
+            <input type="radio" id="patient" name="Role" value="patient">
+            <div class="toggle-circle"></div><span>Patient</span>
           </label>
         </div>
        

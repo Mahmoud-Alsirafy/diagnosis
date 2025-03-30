@@ -12,7 +12,7 @@ require "dev/connect.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Diagnosis</title>
     <link rel="icon" href="Group 10.png" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css?v=2" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
