@@ -15,7 +15,7 @@ include "dev/style/head.php";
           </li>
           <li><a href="#">Diagnosis</a></li>
           <li><a href="#">Medical Record</a></li>
-          <li><a href="#">Contact Doctors</a></li>
+          <li><a href="ChatApp - CodingNepal/index.php">Contact Doctors</a></li>
           <li><a href="#">Pages</a></li>
           <li><a href="#footer">Support</a></li>
           <li><a href="logout.php">Logout</a></li>
